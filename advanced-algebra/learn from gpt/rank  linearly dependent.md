@@ -150,8 +150,14 @@ $\boxed{\text{线性无关}\iff \mathrm{rank}=m}$
 假设把向量作为矩阵的列：
 
 $$
-A= \begin{pmatrix} 1&0&1\\ 0&1&1 \end{pmatrix}
+A= \left(
+\begin{array}{ccc}
+1 & 0 & 1 \\
+0 & 1 & 1
+\end{array}
+\right)
 $$
+
 
 它的三列分别是：
 
