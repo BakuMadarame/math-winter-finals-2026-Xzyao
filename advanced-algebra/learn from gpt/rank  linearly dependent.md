@@ -38,7 +38,7 @@ $V=\mathbb R^3 \$
 
 例如把复数域 $\mathbb C\$看成一个实数域上的向量空间：
 
-$\mathbb C=\operatorname{span}_{\mathbb R}\{1,i\}$
+$\mathbb C=\mathrm{span}_{\mathbb R}\{1,i\}$
 
 它的实维数是2；但把它看成复数域上的向量空间，维数就是1。
 
@@ -94,7 +94,7 @@ $v_1,v_2,\ldots,v_m$$
 
 它们可以张成一个空间：
 
-$\operatorname{span}(v_1,\ldots,v_m)$
+$\mathrm{span}(v_1,\ldots,v_m)$
 
 这个 span 就是所有可能的线性组合组成的集合。
 
@@ -139,7 +139,7 @@ $(v_1,v_2,\ldots,v_m\)$
 
 对于含有 \\(m\\) 个向量的向量组：
 
-$\boxed{\text{线性无关}\iff \operatorname{rank}=m}$
+$\boxed{\text{线性无关}\iff \mathrm{rank}=m}$
 
 也就是说，向量组中每一个向量都提供了新的独立信息。
 
