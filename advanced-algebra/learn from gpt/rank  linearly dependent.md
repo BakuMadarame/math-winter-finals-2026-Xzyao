@@ -38,7 +38,10 @@ $V=\mathbb R^3 \$
 
 例如把复数域 $\mathbb C\$看成一个实数域上的向量空间：
 
-$\mathbb C=\mathrm{span}_{\mathbb R}\{{1,i\}}$
+$$
+\mathbb C=\mathrm{span}_{\mathbb R}\lbrace 1,i \rbrace
+$$
+
 
 它的实维数是2；但把它看成复数域上的向量空间，维数就是1。
 
