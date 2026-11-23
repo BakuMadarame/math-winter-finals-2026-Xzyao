@@ -62,7 +62,7 @@ $\mathbb C=\operatorname{span}_{\mathbb R}\{1,i\}$
 
 严格定义是：
 
-向量组 \\(v_1,\ldots,v_m\\) 线性相关，当且仅当存在不全为零的系数 \\(a_1,\ldots,a_m\in F\\)，使得：
+向量组 $(v_1,\ldots,v_m\\)$ 线性相关，当且仅当存在不全为零的系数 $(a_1,\ldots,a_m\in F\\)$，使得：
 
 $a_1v_1+a_2v_2+\cdots+a_mv_m=0$
 
