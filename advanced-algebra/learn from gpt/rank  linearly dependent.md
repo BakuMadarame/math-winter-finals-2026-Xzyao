@@ -62,7 +62,7 @@ $\mathbb C=\operatorname{span}_{\mathbb R}\{1,i\}$
 
 严格定义是：
 
-向量组 $(v_1,\ldots,v_m\\)$ 线性相关，当且仅当存在不全为零的系数 $(a_1,\ldots,a_m\in F\\)$，使得：
+向量组 $(v_1,\ldots,v_m\)$ 线性相关，当且仅当存在不全为零的系数 $(a_1,\ldots,a_m\in F\)$，使得：
 
 $a_1v_1+a_2v_2+\cdots+a_mv_m=0$
 
@@ -121,7 +121,7 @@ $\operatorname{span}(v_1,\ldots,v_m)$
 
 **向量组**
 
-\\(v_1,v_2,\ldots,v_m\\)
+$(v_1,v_2,\ldots,v_m\)$
 
 考察它们能否相互线性表示
 
@@ -139,7 +139,7 @@ $\operatorname{span}(v_1,\ldots,v_m)$
 
 对于含有 \\(m\\) 个向量的向量组：
 
-\\[ \boxed{\text{线性无关}\iff \operatorname{rank}=m} \\]
+$\boxed{\text{线性无关}\iff \operatorname{rank}=m}$
 
 也就是说，向量组中每一个向量都提供了新的独立信息。
 
@@ -149,11 +149,11 @@ $\operatorname{span}(v_1,\ldots,v_m)$
 
 假设把向量作为矩阵的列：
 
-\\[ A= \begin{pmatrix} 1&0&1\\\ 0&1&1 \end{pmatrix} \\]
+$A= \begin{pmatrix} 1&0&1\\\ 0&1&1 \end{pmatrix}$
 
 它的三列分别是：
 
-\\[ v_1=(1,0),\quad v_2=(0,1),\quad v_3=(1,1) \\]
+$v_1=(1,0),\quad v_2=(0,1),\quad v_3=(1,1)$
 
 第三列是前两列之和，因此列向量组线性相关。
 
