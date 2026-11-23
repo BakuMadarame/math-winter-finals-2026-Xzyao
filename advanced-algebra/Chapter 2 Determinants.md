@@ -246,6 +246,6 @@ $$
 2. 证明范德蒙德行列式公式，并说明它在插值问题中的应用。
 3. 由展开定理推出 $AA^*=(\det A)E_n$，并写出 $A^{-1}$ 的公式。
 4. 证明：若 $A$ 为 $n$ 阶且 $\det A\neq0$，则 $\det(A^{-1})=(\det A)^{-1}$。
-5. 用加边法计算 $D_n=\begin{vmatrix}x&a&\cdots&a\\a&x&\cdots&a\\ \vdots& &\ddots&\vdots\\ a&a&\cdots&x\end{vmatrix}$。
+5. 用加边法计算 D_n=\begin{vmatrix}x & a & \cdots & a \\ a & x & \cdots & a \\ \vdots & \vdots & \ddots & \vdots \\ a & a & \cdots & x\end{vmatrix}。
 6. 用递推法算三对角行列式。
 7. 说明克莱姆法则为何不适合大规模计算，以及它的理论价值在哪里。
