@@ -27,8 +27,14 @@ $x=1+\cos\theta,\qquad y=\sin\theta$
 $x'=-\sin\theta,\qquad y'=\cos\theta$
 
 于是：
-$\begin{aligned}ds &= \sqrt{\sin^2\theta+\cos^2\theta}\,d\theta \\&= d\theta\end{aligned}$
-严格一点说，如果参数递增，$ds=|d\theta|$；在我们这道题里积分方向是从 $\pi$ 到 $0$，所以写成 $ds=-d\theta$ 会涉及方向问题。第一类积分通常直接把弧长微元写成正的 $\sqrt{x'^2+y'^2}\,|d\theta|$，不能把第二类积分的有向微元规则搬过来。
+$$\begin{aligned}I &= \int_0^\pi(\cos^2t+\sin^2t)\,dt \\&= \int_0^\pi 1\,dt \\&= \pi\end{aligned}$$
+
+严格一点说，如果参数递增，$$
+\begin{aligned}
+ds &= |d\theta|
+\end{aligned}
+$$；
+在我们这道题里积分方向是从 $\pi$ 到 $0$，所以写成 $ds=-d\theta$ 会涉及方向问题。第一类积分通常直接把弧长微元写成正的 $\sqrt{x'^2+y'^2}\,|d\theta|$，不能把第二类积分的有向微元规则搬过来。
 
 但更有趣的是：这个结果不是圆的专属性质！
 3. 来看三个不同的例子
@@ -65,7 +71,7 @@ $I=\int_L (x^2+y^2)\,ds$
 $x=\cos t,\quad y=\sin t,\quad 0\leq t\leq\pi$
 
 熟练以后，老师可能直接写：
-$\begin{aligned}I&=\int_0^\pi(\cos^2t+\sin^2t)\,dt\\&=\int_0^\pi 1\,dt\\&=\pi\end{aligned}$
+$$\begin{aligned}I&=\int_0^\pi(\cos^2t+\sin^2t)\,dt\\&=\int_0^\pi 1\,dt\\&=\pi\end{aligned}$$
 
 这里其实已经同时完成了两件事：
 1. 把 $x,y$ 代入被积函数。
