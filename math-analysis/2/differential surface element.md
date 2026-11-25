@@ -68,7 +68,7 @@ $I=\int_L (x^2+y^2)\,ds$
 $x=\cos t,\quad y=\sin t,\quad 0\leq t\leq\pi$
 
 熟练以后，老师可能直接写：
-$I=\int_0^\pi(\cos^2t+\sin^2t)\,\dt=pi\$。
+$I=\int_0^\pi(\cos^2t+\sin^2t)\,dt=pi\$
 
 这里其实已经同时完成了两件事：
 1. 把 $x,y$ 代入被积函数。
