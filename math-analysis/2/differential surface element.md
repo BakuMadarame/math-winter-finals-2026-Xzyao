@@ -27,7 +27,11 @@ $x=1+\cos\theta,\qquad y=\sin\theta$
 $x'=-\sin\theta,\qquad y'=\cos\theta$
 
 于是：
-$$\begin{aligned}I &= \int_0^\pi(\cos^2t+\sin^2t)\,dt \\&= \int_0^\pi 1\,dt \\&= \pi\end{aligned}$$
+$$
+\begin{aligned}
+ds &= |d\theta|
+\end{aligned}
+$$
 
 严格一点说，如果参数递增，$$
 \begin{aligned}
@@ -71,7 +75,13 @@ $I=\int_L (x^2+y^2)\,ds$
 $x=\cos t,\quad y=\sin t,\quad 0\leq t\leq\pi$
 
 熟练以后，老师可能直接写：
-$$\begin{aligned}I&=\int_0^\pi(\cos^2t+\sin^2t)\,dt\\&=\int_0^\pi 1\,dt\\&=\pi\end{aligned}$$
+$$
+\begin{aligned}
+I &= \int_0^\pi (\cos^2 t+\sin^2 t)\,dt\\
+  &= \int_0^\pi 1\,dt\\
+  &= \pi
+\end{aligned}
+$$
 
 这里其实已经同时完成了两件事：
 1. 把 $x,y$ 代入被积函数。
