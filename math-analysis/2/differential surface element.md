@@ -19,7 +19,7 @@ $\boxed{ds=\sqrt{x'(t)^2+y'(t)^2}\,dt}$
 这就是弧长微元公式。
 
 注意：根号里面实际上是参数曲线的速度的平方，开根号就是速度大小。
-2. 为什么刚才圆弧的 \(ds=d\theta\)？
+2. 为什么刚才圆弧的 $ds=d\theta$？
 我们刚才那条曲线是：
 $x=1+\cos\theta,\qquad y=\sin\theta$
 
@@ -27,8 +27,12 @@ $x=1+\cos\theta,\qquad y=\sin\theta$
 $x'=-\sin\theta,\qquad y'=\cos\theta$
 
 于是：
-$\begin{aligned}ds&=\sqrt{\sin^2\theta+\cos^2\theta}\,d\theta\\&=d\theta\end{aligned}$
-
+$$
+\begin{aligned}
+ds &= \sqrt{\sin^2\theta+\cos^2\theta}\,d\theta \\
+&= d\theta
+\end{aligned}
+$$
 严格一点说，如果参数递增，$ds=|d\theta|$；在我们这道题里积分方向是从 $\pi$ 到 $0$，所以写成 $ds=-d\theta$ 会涉及方向问题。第一类积分通常直接把弧长微元写成正的 $\sqrt{x'^2+y'^2}\,|d\theta|$，不能把第二类积分的有向微元规则搬过来。
 
 但更有趣的是：这个结果不是圆的专属性质！
