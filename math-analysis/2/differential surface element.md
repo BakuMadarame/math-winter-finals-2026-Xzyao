@@ -27,10 +27,10 @@ $x=1+\cos\theta,\qquad y=\sin\theta$
 $x'=-\sin\theta,\qquad y'=\cos\theta$
 
 于是：
-$ds=\sqrt{x'(t)^2+y'(t)^2}\,dt$。
+$ds=\sqrt{x'(t)^2+y'(t)^2}\$。
 
 严格一点说，如果参数递增，
- $x=\cos 2t,\ y=\sin 2t$ 时，有 $ds=2\,dt$
+$ds=|d\theta|$时，有 $ds=2\,dt$
 在我们这道题里积分方向是从 $\pi$ 到 $0$，所以写成 $ds=-d\theta$ 会涉及方向问题。第一类积分通常直接把弧长微元写成正的 $\sqrt{x'^2+y'^2}\,|d\theta|$，不能把第二类积分的有向微元规则搬过来。
 
 但更有趣的是：这个结果不是圆的专属性质！
@@ -68,7 +68,7 @@ $I=\int_L (x^2+y^2)\,ds$
 $x=\cos t,\quad y=\sin t,\quad 0\leq t\leq\pi$
 
 熟练以后，老师可能直接写：
-$I=\int_0^\pi(\cos^2t+\sin^2t)\,dt=\pi$。
+$I=\int_0^\pi(\cos^2t+\sin^2t)\,\\dt=\pi$。
 
 这里其实已经同时完成了两件事：
 1. 把 $x,y$ 代入被积函数。
